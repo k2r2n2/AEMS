@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #f1faee;
+}
+
+/* #e63946 #f1faee #a8dadc #457b9d #1d3557 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1d3557;
+  margin-bottom: 16px;
+}
+.heading {
+  margin-bottom: 32px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #e63946;
+  border-bottom: 1px dotted #1d3557;
+}
+p {
+  margin-bottom: 16px;
+}
+
+.container {
+  width: 768px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main svg {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #1d3557;
+  padding: 24px;
+  width: 50%;
+}
+.form a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.form p {
+  margin-bottom: 16px;
+}
+input,
+label {
+  display: block;
+  width: 100%;
+}
+.form label {
+  margin-bottom: 8px;
+}
+.form input {
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #1d3557;
+}
+.btn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.text-sm {
+  font-size: smaller;
+}
